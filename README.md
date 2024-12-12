@@ -37,4 +37,3 @@
 11. [ช่องโหว่เกี่ยวกับ Browser ของผู้ใช้งาน](./11%20-%20Client-Side/README.md)
 12. [ช่องโหว่เกี่ยวกับ API และ Library](./12%20-%20API/README.md)
 
-sdssww
