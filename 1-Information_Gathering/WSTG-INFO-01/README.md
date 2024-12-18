@@ -1,6 +1,10 @@
 # Conduct Search Engine Discovery Reconnaissance for Information Lackage
 
 **ภาษาไทย:** การรวบรวมข้อมูลของเป้าหมายด้วย Search Engine
+- [ความเสี่ยง](#ความเสี่ยง)
+- [การทดสอบ](#ตัวอย่างวิธีการทดสอบ-test-case)
+- [การแก้ไข](#การแก้ไขเบื้องต้น)
+- [อ้างอิง](#อ้างอิง)
 
 ## ข้อมูลที่ควรเข้าใจ
 
@@ -28,7 +32,15 @@
 **ภาพที่ 4:** ตัวอย่างหน้าเว็ปไซต์ที่มาจากผลการค้นหาของภาพที่ 3 ที่มี SQL Error จากภาพมีโอกาสถึง 90% ที่เว็ปไซต์นี้สามารถถูกโจมตีด้วย SQL Injection และทำการเข้าควบคุมตัว Server ได้ทันที
 ![SQL Injection](./Assets/SQL-Injection.png)
 
-## ตัวอย่างวิธีการทดสอบ
+## ตัวอย่างวิธีการทดสอบ (Test Case)
+
+- ค้นคว้าด้วย Google [(Google Dorking)](./1-Google.md)
+- ค้นคว้าด้วย Microsoft Bing [(Bing Dokring)](./2-Bing.md)
+- ค้นคว้าด้วย DuckDuckGo [(DuckDuckGo)](./3-DuckDuckGo.md)
+- ค้นคว้าด้วย Baidu [(Baidu)](./4-Baidu.md)
+- ค้นคว้าด้วย เนื้อหาที่ถูกบันทึกและ Freeze เอาไว้ในอดีต[(Internet Archive Wayback Machine)](./5-Internet_Archive.md)
+- ค้นหาด้วย ฐานข้อมูลอุปกรณ์ที่อยู่บน Internet[(IoT-Database)](./6-IoT-Database.md)
+- วิธีอื่นๆ [(Other)](./7-Other.md)
 
 ## การแก้ไขเบื้องต้น
 
@@ -165,3 +177,9 @@ Search Engine นอกจากจะปฏิบัติตาม `X-Robots-T
 
 ### 6. Review and Revise
 หมั่นเช็คและตรวจสอบให้แน่ใจว่าไม่มีหน้าใดในเว็ปไซต์เก็บข้อมูลเกินความจำเป็น หรือหมั่นตรวจสอบด้วยตัวเองว่ามีเนื้อหาใดบ้างที่ปรากฎบนผลการค้นหาจากหลาย Search Engine
+
+## อ้างอิง
+- [OWASP (2024) - WSTG-INFO-01](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/README)
+- [Impreva (2024) - Google Hacking](https://www.imperva.com/learn/application-security/google-dorking-hacking/)
+- [Offsec (2024) - Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
+- [Joshua Hardwick (2024) - Complete Google Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
